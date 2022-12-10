@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body,
+  html {
+    font-family: "Epilogue", sans-serif;
+  }
+  
+  .logo {
+    width: 160px;
+    cursor: pointer;
+  }
+  .container {
+    padding: 0em 0.8em 0 0.2em;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+  }
+  .top-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 7%;
+  }
+  
+  .top-navigation-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .top-navigation-links {
+    display: flex;
+    gap: 2em;
+  }
+  .top-navigation-left a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 1em;
+  }
+  
+  .top-navigation-right {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+  }
+  .top-navigation-right a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .top-navigation-right .signup-btn {
+    border: 1px solid black;
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .homepage-container, .login-container{
+   padding: 3% 10%;
+  }
+
+  .info-bar {
+    text-align: center;
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 4rem 0;
+  }
+  .landingpage-body {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .landingpage-body-left h1 {
+    font-size: 62px;
+    font-weight: bold;
+  }
+  */ .landingpage-body-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .landingpage-body-left p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  
+  .landingpage-body-right{
+    padding-left: 7%;
+  }
+  
+  .landingpage-body-right img {
+    width: 100%;
+  }
+  
+  .landingpage-body-left button {
+    border: none;
+    background-color: black;
+    color: #fff;
+    width: 150px;
+    padding: 1em;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .landing-page-img-right {
+    border-radius: 10px;
+    opacity: 90%;
+    height: 600px;
+  
+  }
+  
+  /* registration form styling */
+  
+
+  form{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+
+  /* input {
+    width: 25%;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+  } */
+  
+  .login-title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .register-btn,
+  .login-btn {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: groove;
+  }
+  
+  .register-title {
+    display: flex;
+    justify-content: center;
+  }
+  /* rgistration form style ends */
+  
+  footer {
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEEEEE;
+    padding: 2% 7%;
+    width: 100%;
+  }
+  .footer-right img {
+    width: 30px;
+    cursor: pointer;
+  }
+  
+
+  .products-container{
+    padding: 5% 10%;
+  }
+
+
+  /* product card styling start here */
+
+
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.1875rem;
+  }
+  
+  .card-img-actions {
+    position: relative;
+  }
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+  }
+  
+  .card-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .product-text{
+    color: #2AAA8A;
+  }
+  
+  .star {
+    color: red;
+  }
+  
+  .bg-cart {
+    background-color: orange;
+    color: #fff;
+    width: 40%;
+  }
+  
+  .bg-cart:hover {
+    color: #fff;
+  }
+  
+  .bg-buy {
+    background-color: green;
+    color: #fff;
+    padding-right: 29px;
+  }
+  .bg-buy:hover {
+    color: #fff;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  .col-md-4 {
+    flex: 0 0 auto !important;
+    /* width: 33.33333333%; */
+  }
+  
+  /* product card styling ends here */
+  
+  /* shopping cart styling  */
+  .cart {
+    border: 1px solid;
+    width: 35px;
+    text-align: center;
+    height: 35px;
+  }
+  
+  .single-prod-container{
+    padding: 0 15%;
+  }
+  
+  .single-img{
+    width: 70%;
+    height: 400px;
+  }
+  
+  
+  .product-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  
+  @media screen and (max-width: 450px) {
+  
+  
+    .info-bar {
+       margin: 3rem auto;
+       width: 80%;
+       font-size: 1rem;
+    }
+    .top-navigation {
+      flex-wrap: wrap;
+    }
+    
+    .top-navigation-left {
+      flex-wrap: wrap;
+      
+    }
+  
+    .signup-btn{
+      padding: 5px 15px;
+    }
+  
+  
+    .landingpage-body-right img {
+      height: 400px;
+    }
+  
+    .landingpage-body-left h1 {
+      font-size: 39px;
+     }
+  
+    .landingpage-body {
+      padding: 0 5%;
+      margin: 0 auto;
+    }
+    
+    .landingpage-body-right {
+        padding: 0;
+    }
+    .homepage-container, .login-container {
+        padding: 3% 0;
+    }
+
+    .single-prod-container{
+      padding: 0 7%;
+    }
+  
+    .top-navigation-left a, .top-navigation-links, .top-navigation-right {
+      margin: 10px auto;
+    }
+  
+    .top-navigation-links {
+      display: flex;
+      gap: 2em;
+    }
+    
+    form{
+        width: 80%;
+        
+      }
+    .single-img{
+      width: 100%;
+      height: 327px;
+    }
+  
+    .col-12{
+      margin-bottom: 30px;
+    }
+  
+  
+    footer{
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+   
+    
+  }
+  
